@@ -1,4 +1,4 @@
-##===========WAP push PDU resolve for android============
+## ===========WAP push PDU resolve for android============
 About WAP(Wirless Application Protocal), please visit this website: [http://www.wapforum.org](http://www.wapforum.org).
 
 WAP PDU is broadcasted by android framework, APP with receiver can receive it and resolve PDU data to notify user.
