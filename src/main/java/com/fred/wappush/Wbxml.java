@@ -619,7 +619,7 @@ public class Wbxml {
 			isWebsiteAttribute = true;
 			break;
 
-         default:
+                default:
 			{
 				Log.e(TAG, "invalid sl attribute:" + (token & 0xFF));
 				return false;
@@ -855,7 +855,7 @@ public class Wbxml {
 				return false;				
 			}
 			var = (var << 7) | (data[index] & 0x7f);
-            index++;
+                        index++;
 		}
 		
 		var = (var << 7) | (data[index] & 0x7f);
